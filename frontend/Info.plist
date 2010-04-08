@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CPApplicationDelegateClass</key>
+	<string>AppController</string>
+	<key>CPBundleName</key>
+	<string>SCAuthExample</string>
+	<key>CPPrincipalClass</key>
+	<string>CPApplication</string>
+	<key>SCAuthLoginURL</key>
+	<string>/session/</string>
+	<key>SCAuthRegistrationURL</key>
+	<string>/user/</string>
+	<key>SCAuthUserCheckURL</key>
+	<string>/user/</string>
+	<key>SCAuthLogoutURL</key>
+	<string>/session/</string>
+</dict>
+</plist>
