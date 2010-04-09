@@ -29,7 +29,6 @@ def get_user(username):
     return HttpResponseNotFound('', mimetype = 'application/json')
 
 def update_user(username):
-    print settings.CURRENT_SESSION
     if settings.CURRENT_SESSION:
         return HttpResponse('', mimetype='application/json')
     return HttpResponseBadRequest('', mimetype = 'application/json', status = 401)

@@ -32,7 +32,6 @@ def login_user(request):
     password = jsonObj['password']
     if username == 'demo' and password == 'demo':
         settings.CURRENT_SESSION = username
-        print settings.CURRENT_SESSION
         return HttpResponse('', mimetype='application/json')
     return HttpResponseForbidden('', mimetype = 'application/json')
 
